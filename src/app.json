@@ -1,0 +1,22 @@
+{
+  "pages": ["pages/index/index", "pages/about/about", "pages/info/info"],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于"
+      }
+    ]
+  },
+  "size": {
+    "windowHeight": 600,
+    "windowWidth": 800
+  },
+  "window": {
+    "navigationBarTextStyle": "black"
+  }
+}
