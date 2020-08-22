@@ -1,3 +1,3 @@
 const getConfig = require('fox2app').getConfig
 
-module.exports = getConfig('production')
+module.exports = getConfig('development')
