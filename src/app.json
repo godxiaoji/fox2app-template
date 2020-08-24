@@ -1,14 +1,13 @@
 {
-  "pages": ["pages/index/index", "pages/about/about", "pages/info/info"],
+  "pages": [
+    "pages/index/index",
+    "pages/about/about"
+  ],
   "tabBar": {
     "list": [
       {
         "pagePath": "pages/index/index",
         "text": "首页"
-      },
-      {
-        "pagePath": "pages/about/about",
-        "text": "关于"
       }
     ]
   },

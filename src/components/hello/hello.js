@@ -1,16 +1,14 @@
 export default {
   props: {
-    number: Number,
-    info: Object
+    title: String
   },
-  components: {},
   data() {
-    return { title: 'hello' }
+    return {}
   },
   created() {
     console.log('hello created')
   },
-  mounted() {},
+  mounted() { },
   pageLifetimes: {
     show() {
       console.log('hello show')
@@ -20,8 +18,5 @@ export default {
     }
   },
   methods: {
-    test() {
-      console.log(this)
-    }
   }
 }

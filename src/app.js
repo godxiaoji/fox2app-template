@@ -1,12 +1,12 @@
 export default {
   globalData: {
-    num: 1
+    title: 'hello world'
   },
   onLaunch(object) {
     console.log('app onLaunch', this, object)
   },
   onShow() {
-    console.log('app onShow', this)
+    console.log('app onShow')
   },
   onHide() {
     console.log('app onHide')

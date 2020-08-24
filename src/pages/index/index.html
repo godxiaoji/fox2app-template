@@ -1,13 +1,4 @@
 <div id="app">
-  <h1 id="number" @click="add">{{number}}</h1>
-  <p @click="showPlus">{{plus}} + {{info.num}}</p>
-  <hello class="a" :number="number" :info="info"></hello>
-  <ul>
-    <li>1</li>
-    <li>2</li>
-    <li>3</li>
-    <li>4</li>
-  </ul>
-  <button @click="toAbout">关于我们</button>
-  <fx-button @click="onClick">自定义按钮</fx-button>
+  <hello :title="title"></hello>
+  <fx-button @click="toAbout">关于</fx-button>
 </div>

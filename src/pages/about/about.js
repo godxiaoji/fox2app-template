@@ -9,7 +9,7 @@ export default {
   beforeDestroy() {
     console.log('about destroyed')
   },
-  mounted() {},
+  mounted() { },
   onShow() {
     console.log('about show')
   },
@@ -17,10 +17,5 @@ export default {
     console.log('about hide')
   },
   methods: {
-    back() {
-      fx.switchTab({
-        url: 'pages/index/index'
-      })
-    }
   }
 }
