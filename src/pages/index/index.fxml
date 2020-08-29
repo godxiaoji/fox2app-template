@@ -1,4 +1,4 @@
 <div id="app">
   <hello :title="title"></hello>
-  <fx-button @click="toAbout">关于</fx-button>
+  <fx-button @click="toAbout">关于1</fx-button>
 </div>
