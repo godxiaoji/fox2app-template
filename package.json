@@ -1,13 +1,12 @@
 {
   "name": "fox2app-template",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "fox2app 初始模版",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --mode=production",
-    "lint": "eslint . --fix",
-    "serve": "webpack-dev-server --mode=development --config=./webpack.dev.config.js"
+    "build": "fox2app-cli-service build",
+    "lint": "fox2app-cli-service lint",
+    "serve": "fox2app-cli-service serve"
   },
   "author": "Travis",
   "license": "MIT",
